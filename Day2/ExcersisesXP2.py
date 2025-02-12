@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # # Exercise2
 # # -1
 # family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
@@ -91,7 +90,6 @@ def get_random_temp(season):
 
 
 
-=======
 # # Exercise2
 # # -1
 # family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
@@ -160,29 +158,27 @@ def get_random_temp(season):
     else:
         return random.randint(-10, 40) 
 
-# temperature = get_random_temp()
-# print(f"The randomly generated temperature is: {temperature}°C")
+temperature = get_random_temp()
+print(f"The randomly generated temperature is: {temperature}°C")
    
-# def main ():
-#     temperature = get_random_temp()
-#     print(f"The temperature right now is {temperature} degrees Celsius.")
+def main ():
+    temperature = get_random_temp()
+    print(f"The temperature right now is {temperature} degrees Celsius.")
 
 
-#     if temperature < 0:
-#         print("Brrr, that’s freezing! Wear some extra layers today.")
-#     elif 0 <= temperature <= 16:
-#         print("Quite chilly! Don’t forget your coat.")
-#     elif 17 <= temperature <= 23:
-#         print("Nice and cool weather, enjoy your day!")
-#     elif 24 <= temperature <= 32:
-#         print("It’s warm, stay hydrated.")
-#     else:
-#         print("It’s really hot! Wear sunscreen and stay in the shade.")
-# main()
+    if temperature < 0:
+        print("Brrr, that’s freezing! Wear some extra layers today.")
+    elif 0 <= temperature <= 16:
+        print("Quite chilly! Don’t forget your coat.")
+    elif 17 <= temperature <= 23:
+        print("Nice and cool weather, enjoy your day!")
+    elif 24 <= temperature <= 32:
+        print("It’s warm, stay hydrated.")
+    else:
+        print("It’s really hot! Wear sunscreen and stay in the shade.")
+main()
 
 
 
 
-
->>>>>>> origin/master
    
