@@ -73,4 +73,18 @@ class Zoo:
     def sort_animals(self):
         self.animals.sort()
         grouped_animals = {}
+        for animal in self.animals: 
+            first_letter = animal[0].upper()  
+            if first_letter not in grouped_animals:
+                grouped_animals[first_letter] = []  
+            grouped_animals[first_letter].append(animal)  
+        
+        return grouped_animals  
+
+zoo = Zoo("my_zoo")
+animals_list = ["Zebra", "Antelope", "Lion", "Tiger", "Leopard", "Elephant", "Giraffe"]
+for animal in animals_list:
+    zoo.add_animal(animal)
+print(zoo.sort_animals())
+        
 
