@@ -1,0 +1,22 @@
+pip install pandas
+
+df = pd.read_csv("file.csv")  # Loads the dataset from a CSV file into a DataFrame
+
+df.head()  # Displays the first 5 rows of the dataset (default). Use df.head(n) for more rows.
+
+df.describe()  # Provides summary statistics for numerical columns (mean, min, max, std, etc.).
+
+df.info()  # Shows an overview of the dataset, including column names, non-null counts, and data types.
+
+df.dtypes  # Returns the data type of each column in the DataFrame.
+
+# 💡 For the curious:
+df.isnull().sum()  # Counts the number of missing (NaN) values in each column.
+
+df.drop(columns=["column_name"], inplace=True)  # Removes the specified column(s) from the DataFrame.
+# Use df.drop(index=[row_index], inplace=True) to drop specific rows.
+
+# Create a simple plot (like a histogram or bar chart) to visualize the data using Matplotlib/Seaborn libraries :
+import matplotlib.pyplot as plt
+plt.plot(data['Name_column1'], data['Name_column2'])
+plt.show()
