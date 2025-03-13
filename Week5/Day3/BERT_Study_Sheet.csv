@@ -1,0 +1,22 @@
+Section,Key Point,Explanation
+Section,Key Point,Explanation
+What is BERT?,Definition,"BERT = Bidirectional Encoder Representations from Transformers (developed by Google, 2018)."
+Key Features,Bidirectional Context,Understands words by looking at context in both directions (left & right).
+Key Features,Transformer Encoder,Uses self-attention to weigh relationships between all words in a sentence.
+Key Features,Pre-trained Tasks,Trained using Masked Language Modeling and Next Sentence Prediction.
+Key Features,Fine-Tuning,Adaptable to specific NLP tasks with smaller task-specific data.
+Input Representation,"Token, Position, Segment Embeddings","Represents each word’s identity, order, and sentence structure."
+Self-Attention Mechanism,Contextual Understanding,Allows BERT to see how every word relates to others.
+Output,Contextualized Embeddings,Each word has a unique meaning depending on its context.
+Why Use BERT?,Contextual Embeddings,"Word meanings change based on context (e.g., “bank” as river vs finance)."
+Why Use BERT?,High Accuracy,"Embeddings reflect nuanced, context-aware meanings."
+Why Use BERT?,Versatile Applications,"Text classification, question answering, semantic search, NER."
+BERT in LLMs,Comparison to GPT,GPT = decoder/generation; BERT = encoder/understanding.
+BERT in RAG,Role in Retrieval,Generates embeddings for queries and documents used in semantic search.
+BERT in RAG,Retrieval Pipeline,"Embeddings enable similarity search in vector databases (e.g., FAISS)."
+NER with BERT,Why NER is Hard,Entities may not be in dictionaries or are multi-word expressions.
+NER with BERT,How BERT Helps,"Identifies entities using context (e.g., ""Apple"" = company)."
+Exercise,What is BERT?,Bidirectional Encoder Representations from Transformers.
+Exercise,How BERT vs GPT?,BERT = encoder/context; GPT = decoder/generation.
+Exercise,BERT in RAG,Generates embeddings used for document retrieval.
+Exercise,Tasks using BERT,"NER, Question Answering, Semantic Search, Text Classification."

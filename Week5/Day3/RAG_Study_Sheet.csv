@@ -1,0 +1,21 @@
+Section,Key Point,Explanation
+Section,Key Point,Explanation
+What is RAG?,Definition,RAG = Retrieval + Generation: AI looks up documents then writes an answer.
+Key Terms,Retrieval,"Searching for documents, like using Google."
+Key Terms,Generation,Writing a smart response using those documents.
+Key Terms,Retriever,The part that finds documents (internal search engine).
+Key Terms,Generator,The part that writes the final answer.
+Key Terms,External Knowledge Source,"Library of documents (Wikipedia, news, databases)."
+Advantages,Factual Accuracy,Reduces wrong info by grounding answers in real data.
+Advantages,Up-to-date Info,Accesses the most recent data from external sources.
+Advantages,Domain Adaptability,"Can work in specific fields like medicine, law."
+Limitations,Dependence on External Data,"If the documents are bad, answers may still be wrong."
+Limitations,Computational Cost,More expensive and slower than standard AI.
+Applications,Customer Support,Uses company info to give smart replies to clients.
+Applications,Fact-Checking,Verifies claims using real documents.
+Applications,Content Creation,"Generates blog posts, articles, etc. using retrieved data."
+Applications,Conversational AI,Makes chatbots smarter and more accurate.
+Exercise,Main Components,Retriever and Generator.
+Exercise,How Retriever Works,Turns question into vector and finds matching documents.
+Exercise,Advantages of RAG,"Accurate, up-to-date, adaptable."
+Exercise,Example Application,Customer Support Chatbot.
